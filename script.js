@@ -135,7 +135,7 @@ if (cartasSeleccionadas.length === 2) {
       if (contadorGanados === tarjetas.length) {
         resultado.textContent = "¡Felicidades! ¡Los encontraste a todos!";
       } else {
-        resultado.textContent = (contadorGanados / 2) + " razas encontradas"; //hay 2n pares, por ende hay n elementos distintos
+        resultado.textContent = (contadorGanados / 2) + " parejas encontradas"; //hay 2n pares, por ende hay n elementos distintos
       }
   }
   
